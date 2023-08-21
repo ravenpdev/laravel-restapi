@@ -19,7 +19,7 @@ class Geolocation
 
         $location = $this->satellite->pinpoint($information);
 
-        // return $location;
-        return "Hello World";
+        return $location;
+        // return "Hello World";
     }
 }
